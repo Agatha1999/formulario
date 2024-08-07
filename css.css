@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'co';
+    src: url(Corner\ Cafe.otf);
+}
+body {
+    font-family:'co';
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #e5e5e5;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    font-family: 'co';
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    color: #666;
+}
+input{
+    font-family: 'co';
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #999999;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #666;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+    color: #fff;
+}
